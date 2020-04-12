@@ -59,6 +59,13 @@ body {
     fill: currentColor;
     width: 100%;
 }
+.svg-border-rounded-my-project svg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    fill: currentColor;
+    width: 100%;
+}
 
 .about-me {
     position: relative;
@@ -78,12 +85,77 @@ body {
     padding: 2em 2em 2em 3em;
 }
 
+.about-me .my-content .my-content-img {
+    width: 100%
+}
+@media screen and (min-width: 821px) and (max-width: 991px) {
+    .about-me .my-content .my-content-img {
+        width: 345px;
+        height: 340px;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 820px) {
+    .about-me .my-content .my-content-img {
+        width: 250px;
+        height: 300px;
+    }
+}
+
 .about-me .my-content p span {
     font-size: 20px;
 }
 .about-me .my-projects {
     margin-left: 12px;
     padding: 12px;
+}
+
+@media screen and (min-width: 765px) {
+    .about-me .my-projects {
+        width: 92%;
+        margin: auto;
+    }
+}
+
+.outer-project-container {
+    margin: 9px 0;
+}
+.project-container {
+    cursor: pointer;
+    color: #240b33;
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    border-radius: 6px;
+    top: 0;
+    min-height: 20vh;
+}
+.project-container:hover {
+    top: 10px;
+}
+.project-container .project-name {
+    text-align: center;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    -moz-border-radius-topleft: 6px;
+    -moz-border-radius-topright: 6px;
+    background-color: #efd4ff;
+    background-image: linear-gradient(to right, #efd4ff , #dfb1fa);
+    font-size: 21px;
+    padding: 8px;
+}
+.project-container .project-desc {
+    width: 95%;
+    margin: auto;
+    font-size: 14px;
+    padding: 12px 8px 8px 8px;
+}
+.lift {
+    -webkit-box-shadow: 0 0.15rem 1.75rem 0 rgba(31,45,65,.15);
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(31,45,65,.15);
+    -webkit-transition: -webkit-transform .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: -webkit-transform .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: transform .15s ease-in-out,box-shadow .15s ease-in-out;
+    /*transition: transform .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-transform .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;*/
 }
 
 .dot {
@@ -103,6 +175,14 @@ body {
     border-radius: 50%;
     display: inline-block;
 }
+
+.my-dev-stack {
+    position: relative;
+    background-color: white;
+    color: #000078;
+    padding: 0 0 4px 0;
+}
+
 
 ::-webkit-scrollbar {
     width: 3px;
