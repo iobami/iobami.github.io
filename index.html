@@ -15,12 +15,14 @@
     <title>Ayobami's portfolio</title>
 </head>
 <body>
-    <div id="page-container">
+    <div id="page-container" style="position: relative">
         <div class="top-page-container page-header page-header-dark">
             <header>
                 <div>
                     <span class="name">J.</span>
                     <span class="name">A</span>
+                    <!--<img src="src/Components%20for%20web/my%20logo.png"-->
+                         <!--style="height: 90px; width: 86px" alt="my img">-->
                 </div>
             </header>
 
@@ -110,79 +112,87 @@
                 </div>
                 <hr>
 
-                <!--my personal projects section-->
-                <div>
-                    <div class="title row">
-                        <h1 class="row" style="width: 100%; margin: auto">
+            </div>
+            <!--my personal projects section-->
+            <div style="width: 92%; margin: auto">
+                <div class="row justify-content-between">
+                    <div class="col-1 align-self-end">
+                        <img src="./src/Humaaans/Plant%20Left.png"
+                             style="width: 100%;  height: 100%" alt="Pod img">
+                    </div>
+                    <div class="col-11">
+                        <div class="title row">
+                            <h1 class="row" style="width: 100%; margin: auto">
                         <span style="display: inline; width: 5%">
                             <i class="align-middle dot"></i>
                         </span>&nbsp;
-                            <span class="align-middle" style="display: inline; width: 90%">
+                                <span class="align-middle" style="display: inline; width: 90%">
                             My personal projects
                         </span>
-                        </h1>
-                    </div>
-                    <div class="container my-projects">
-                        <div class="row justify-content-center">
-                            <div class="col-xl-4 col-sm-6 col-lg-4 outer-project-container">
-                                <div class="project-container lift">
-                                    <div class="project-name">
-                                        Bam Bam
-                                    </div>
-                                    <div class="project-desc">
+                            </h1>
+                        </div>
+                        <div class="container my-projects">
+                            <div class="row justify-content-center">
+                                <div class="col-xl-4 col-sm-6 col-lg-4 outer-project-container">
+                                    <div class="project-container lift">
+                                        <div class="project-name">
+                                            Bam Bam
+                                        </div>
+                                        <div class="project-desc">
                                         <span>
                                             An AI powered web application for making admission enquiries
                                             at the University of Ibadan
                                         </span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-xl-4 col-sm-6 col-lg-4 outer-project-container">
-                                <div class="project-container lift">
-                                    <div class="project-name">
-                                        Qui
-                                    </div>
-                                    <div class="project-desc">
+                                <div class="col-xl-4 col-sm-6 col-lg-4 outer-project-container">
+                                    <div class="project-container lift">
+                                        <div class="project-name">
+                                            Qui
+                                        </div>
+                                        <div class="project-desc">
                                         <span>
                                             A web application for uploading exam questions
                                         </span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-xl-4 col-sm-6 col-lg-4 outer-project-container">
-                                <div class="project-container lift">
-                                    <div class="project-name">
-                                        County
-                                    </div>
-                                    <div class="project-desc">
+                                <div class="col-xl-4 col-sm-6 col-lg-4 outer-project-container">
+                                    <div class="project-container lift">
+                                        <div class="project-name">
+                                            County
+                                        </div>
+                                        <div class="project-desc">
                                         <span>
                                             A React Native countdown timer mobile app.
                                         </span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-xl-4 col-sm-6 col-lg-4 outer-project-container">
-                                <div class="project-container lift">
-                                    <div class="project-name">
-                                        Ceph'folio
-                                    </div>
-                                    <div class="project-desc">
+                                <div class="col-xl-4 col-sm-6 col-lg-4 outer-project-container">
+                                    <div class="project-container lift">
+                                        <div class="project-name">
+                                            Ceph'folio
+                                        </div>
+                                        <div class="project-desc">
                                         <span>
                                             A portfolio wep app that renders images from an API
                                         </span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-xl-4 col-sm-6 col-lg-4 outer-project-container">
-                                <div class="project-container lift">
-                                    <div class="project-name">
-                                        Bams The Bot
-                                    </div>
-                                    <div class="project-desc">
+                                <div class="col-xl-4 col-sm-6 col-lg-4 outer-project-container">
+                                    <div class="project-container lift">
+                                        <div class="project-name">
+                                            Bams The Bot
+                                        </div>
+                                        <div class="project-desc">
                                         <span>
                                             A Node.js application that connects to IBM Watson and sends payloads
                                             to mobile or web using Socket.io
                                         </span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -190,14 +200,7 @@
                     </div>
                 </div>
             </div>
-            <div style="width: 97%; margin: auto">
-                <div class="row justify-content-end">
-                    <div class="col-2">
-                        <img src="./src/Humaaans/Background%20Shape.png"
-                             style="width: 90%; height: 65%" alt="Pod img">
-                    </div>
-                </div>
-            </div>
+            <br>
             <br>
             <br>
 
@@ -285,14 +288,27 @@
                         </p>
                     </div>
                     <div class="col-xl-6 col-lg-6 col-sm-6">
-                        <img src="./src/Humaaans/Component%202%20–%201.png" class="my-content-img" alt="humaaan img">
+                        <!--<img src="./src/Humaaans/Component%202%20–%201.png" class="my-content-img" alt="humaaan img">-->
+                        <img src="./src/Components%20for%20web/Component%2010%20–%2011.png"
+                             class="my-content-img" alt="humaaan img">
                     </div>
                 </div>
             </div>
+            <br>
+            <br>
         </section>
-        <br>
-        <br>
-        <br>
+        <span>
+            <div class="svg-border-rounded text-white">
+                <!--<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">-->
+                    <!--<path fill="#2F3676" fill-opacity="1"-->
+                          <!--d="M0,64L48,74.7C96,85,192,107,288,133.3C384,160,480,192,576,208C672,224,768,224,864,213.3C960,203,1056,181,1152,149.3C1248,117,1344,75,1392,53.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>-->
+                <!--</svg>-->
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                  <path fill="#2F3676" fill-opacity="1"
+                        d="M0,224L60,218.7C120,213,240,203,360,213.3C480,224,600,256,720,266.7C840,277,960,267,1080,250.7C1200,235,1320,213,1380,202.7L1440,192L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+                </svg>
+            </div>
+        </span>
 
     </div>
 
